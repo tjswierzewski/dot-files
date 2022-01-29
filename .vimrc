@@ -387,5 +387,5 @@ endfunction
 
 call plug#begin()
     Plug 'preservim/NERDTree'
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf'
 call plug#end()
