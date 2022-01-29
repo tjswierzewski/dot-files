@@ -384,3 +384,8 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+call plug#begin()
+    Plug 'preservim/NERDTree'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+call plug#end()
